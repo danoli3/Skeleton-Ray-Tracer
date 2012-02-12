@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BRDFs">
+      <UniqueIdentifier>{9c2463b0-363f-4dfd-8d1a-2e4a20742131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BTDFs">
+      <UniqueIdentifier>{d75a6efe-a682-462e-a9f5-a1081efbc9fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cameras">
+      <UniqueIdentifier>{a53dad5f-aad2-436e-9b6b-f7090d5d50dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometric Objects">
+      <UniqueIdentifier>{9f4a70a6-975f-4815-9649-ef1ef86bd3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lights">
+      <UniqueIdentifier>{f9c0217d-67ab-4a87-80a3-5efd580fe3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mappings">
+      <UniqueIdentifier>{1a416552-be9a-4648-a436-77d47c260559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{8ab0244a-006d-4198-9d45-7fc29c12ecac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{93fdd249-c311-4e5c-956c-2b6e908fa246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{1b33db92-ab63-41d9-a5e8-cddcc54cdf02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface">
+      <UniqueIdentifier>{9193b215-3787-48fd-824b-b8c498a43278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tracers">
+      <UniqueIdentifier>{b482e784-e5a0-4ac8-907b-dec641c08deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{1ec7fd6b-6d86-45fb-92f3-fe7cfd9413c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Samplers">
+      <UniqueIdentifier>{84bb67fd-9080-4744-9dae-407471964301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Noises">
+      <UniqueIdentifier>{6f6ac7f9-ed89-45db-8128-29871378ed6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="raytracer\BRDFs\BRDF.cpp">
+      <Filter>BRDFs</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\BRDFs\Lambertian.cpp">
+      <Filter>BRDFs</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Cameras\Camera.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Cameras\Pinhole.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\GeometricObjects\GeometricObject.cpp">
+      <Filter>Geometric Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\GeometricObjects\Plane.cpp">
+      <Filter>Geometric Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\GeometricObjects\Sphere.cpp">
+      <Filter>Geometric Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Lights\Ambient.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Lights\Directional.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Lights\Light.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Materials\Material.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Materials\Matte.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\World\ViewPlane.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\World\World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Utilities\Matrix.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Utilities\Normal.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Utilities\Point2D.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Utilities\Point3D.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Utilities\Ray.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Utilities\RGBColor.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Utilities\ShadeRec.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Utilities\Vector3D.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\UserInterface\wxraytracer.cpp">
+      <Filter>User Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Tracers\MultipleObjects.cpp">
+      <Filter>Tracers</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Tracers\RayCast.cpp">
+      <Filter>Tracers</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Tracers\SingleSphere.cpp">
+      <Filter>Tracers</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer\Tracers\Tracer.cpp">
+      <Filter>Tracers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="raytracer\BRDFs\BRDF.h">
+      <Filter>BRDFs</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\BRDFs\Lambertian.h">
+      <Filter>BRDFs</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Cameras\Camera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Cameras\Pinhole.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\GeometricObjects\GeometricObject.h">
+      <Filter>Geometric Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\GeometricObjects\Plane.h">
+      <Filter>Geometric Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\GeometricObjects\Sphere.h">
+      <Filter>Geometric Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Lights\Ambient.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Lights\Directional.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Lights\Light.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Materials\Material.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Materials\Matte.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\World\ViewPlane.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\World\World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Utilities\Constants.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Utilities\Maths.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Utilities\Matrix.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Utilities\Normal.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Utilities\Point2D.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Utilities\Point3D.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Utilities\Ray.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Utilities\RGBColor.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Utilities\ShadeRec.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Utilities\Vector3D.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\UserInterface\wxraytracer.h">
+      <Filter>User Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Tracers\MultipleObjects.h">
+      <Filter>Tracers</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Tracers\RayCast.h">
+      <Filter>Tracers</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Tracers\SingleSphere.h">
+      <Filter>Tracers</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer\Tracers\Tracer.h">
+      <Filter>Tracers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
